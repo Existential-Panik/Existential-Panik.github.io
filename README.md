@@ -1,4 +1,3 @@
-# a sample site design
-## learning git along with the project
+# Trying to mimick the figma design
 
-# not so good looking basic webpage
+## Alot remains to mimic just pushing cause felt bored
