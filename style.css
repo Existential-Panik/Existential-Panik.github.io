@@ -12,7 +12,19 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+nav{
+    display:flex;
+    align-items:center;
+}
+
+nav div{
+    margin-right:5%;
+    margin-left:5%;
+}
+
 nav ul{
+    margin-left:auto;
+    flex-grow:1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
