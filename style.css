@@ -1,39 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&family=Montserrat&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
+/* Whole Body */
 body{
 	background: #05668D;
+    color: #F1F6F9;
 	font-family: 'Lato', sans-serif;
 }
 
+/* Nav-Bar */
 nav{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-nav div{
-    margin-left:15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul{
     display: flex;
+    font-size: 16px;
+    padding: 27px 0px;
     justify-content: flex-end;
     align-items: center;
-    margin: 0px;
-    padding: 20px 0px;
-    color: #F1F6F9;
-    font-size: 16px;
 }
 
 nav li{
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 
 li, a{
@@ -41,50 +37,48 @@ li, a{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #F1F6F9;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
 }
 
 #logo{
-    margin-right: auto;
-    font-weight: 700;
+    margin-left: 5rem;
+    font-weight: 800;
 }
 
+/* Main Content */
 .container{
-    background-color:#007F5F;
-    display:grid;
-    grid-column: repeat(1,1fr);
-    grid-row: repeat(1,1fr);
-    padding-bottom: 20px;
-}
-
-.container h3{
-    font-family: 'PT Serif', serif;
-    font-size: 36px;
-    font-weight: normal;
-    padding-bottom: 0px;
-}
-
-.container h3,.container p{
-    text-align: center;
-    margin: auto;
-    padding: 45px 70px 20px 70px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: #E8EAEB;
+    width: 100%;
+    height: 45%;
+    background-color: #007F5F;
 }
-
-p{
-    width: 50%;
+.main-cont{
+    display: flexbox;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    margin-left: 5rem;
+}
+.main-cont h4{
+    font-size: 2.4rem;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    padding: inherit;
+    width: auto;
+}
+.main-cont p{
+    font-size: 18px;
+    padding: inherit;
     margin: 20px;
-    padding: 30px;
-    line-height: 1.4em;
-    display: block;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin-left: 0px;
+    width: auto;
 }
-
-.sub-cont{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-end;
-    height:200px;
-    color: white;
+.side-img img{
+    padding-top: 1rem;
 }
